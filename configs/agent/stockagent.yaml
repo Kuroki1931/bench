@@ -1,0 +1,7 @@
+_target_: src.kujira.agent.stockagent.create_agents_functioncalling
+num_agents: 0
+model: "openai/gpt-3.5-turbo"
+temperature: 1.0
+memory_cls_path: src.kujira.agent.stockagent.HistoryMemory
+memory_cls_kwargs:
+  history_length: 3
