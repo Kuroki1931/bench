@@ -1,0 +1,20 @@
+_target_: src.shachi.env.psychobench.psychobench_env.PsychoBenchTask
+questionnaire: 
+  - "BFI"
+  - "DTDD"
+  - "EPQ-R"
+  - "ECR-R"
+  - "CABIN"
+  - "GSE"
+  - "LMS"
+  - "BSRI"
+  - "ICB"
+  - "LOT-R"
+  - "Empathy"
+  - "EIS"
+  - "WLEIS"
+  # - "16P"
+num_tests: 10
+max_questions_per_step: 30
+shuffle_questions: True
+max_parse_retries: 10
